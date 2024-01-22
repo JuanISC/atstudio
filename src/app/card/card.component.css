@@ -1,0 +1,32 @@
+.cardComponent {
+    /* width: 33rem; */
+    background-color: beige;
+    border-radius: 10%;
+    /* height: 400px; */
+    /* height: 20%; */
+
+}
+.cardComponent span{
+    margin-top: 30px;
+    font-size: 50px;
+}
+.cardComponent .card-body{
+    margin-top: 30px;
+
+}
+.cardComponent .card-title{
+    font-size: 20px;
+}
+
+.cardComponent .card-text{
+    margin-top: 40px;
+    text-wrap: pretty;
+    text-align: center;
+    font-size: medium;
+}
+
+.perro  div:hover{
+    /* width: 35rem; */
+    background-color: red;
+    border-radius: 10%;
+}

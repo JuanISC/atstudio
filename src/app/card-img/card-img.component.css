@@ -1,0 +1,33 @@
+.cardComponent {
+    /* width: 33rem; */
+    background-color: beige;
+    border-radius: 2%;
+    /* height: 400px; */
+    /* height: 20%; */
+
+}
+
+
+.cardComponent img{
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    height: 20%;
+    max-height: 450px;
+}
+.cardComponent .card-body{
+    margin-top: 30px;
+
+    min-height: 350px;
+
+}
+.cardComponent .card-title{
+    font-size: 20px;
+}
+
+.cardComponent .card-text{
+    margin-top: 40px;
+    text-wrap: pretty;
+    text-align: center;
+    font-size: medium;
+}
+
