@@ -26,11 +26,7 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss",
               "node_modules/@fortawesome/fontawesome-free/scss/solid.scss",
-<<<<<<< Updated upstream
-=======
               "node_modules/@fortawesome/fontawesome-free/scss/brands.scss",
-              "node_modules/@fortawesome/fontawesome-free/svgs/brands.scss",
->>>>>>> Stashed changes
               "src/styles.css"
             ],
             "scripts": []
@@ -80,40 +76,12 @@
           },
           "defaultConfiguration": "development"
         },
-<<<<<<< Updated upstream
-        "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n",
-          "options": {
-            "browserTarget": "atstudio:build"
-          }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "src/test.ts",
-            "polyfills": "src/polyfills.ts",
-            "tsConfig": "tsconfig.spec.json",
-            "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
-=======
         "deploy": {
           "builder": "@angular/fire:deploy",
           "options": {} 
->>>>>>> Stashed changes
           }
         }
       }
     }
   }
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
