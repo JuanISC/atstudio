@@ -26,6 +26,11 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss",
               "node_modules/@fortawesome/fontawesome-free/scss/solid.scss",
+<<<<<<< Updated upstream
+=======
+              "node_modules/@fortawesome/fontawesome-free/scss/brands.scss",
+              "node_modules/@fortawesome/fontawesome-free/svgs/brands.scss",
+>>>>>>> Stashed changes
               "src/styles.css"
             ],
             "scripts": []
@@ -75,6 +80,7 @@
           },
           "defaultConfiguration": "development"
         },
+<<<<<<< Updated upstream
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
@@ -96,9 +102,18 @@
               "src/styles.css"
             ],
             "scripts": []
+=======
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {} 
+>>>>>>> Stashed changes
           }
         }
       }
     }
   }
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes

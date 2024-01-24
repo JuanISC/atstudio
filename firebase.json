@@ -1,7 +1,11 @@
 {
     "hosting": {
       "target": "atstudio",
+<<<<<<< Updated upstream
       "public": "dist/atstudiof",
+=======
+      "public": "dist/atstudio",
+>>>>>>> Stashed changes
       "ignore": [
         "firebase.json",
         "**.*",

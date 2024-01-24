@@ -1,9 +1,17 @@
 .cardComponent {
     /* width: 33rem; */
     background-color: beige;
+<<<<<<< Updated upstream
     border-radius: 10%;
     /* height: 400px; */
     /* height: 20%; */
+=======
+    border-radius: 33px;
+    /* height: 400px; */
+    /* height: 20%; */
+    /* min-height: 300px; */
+    min-height:113vh;
+>>>>>>> Stashed changes
 
 }
 .cardComponent span{
@@ -25,8 +33,21 @@
     font-size: medium;
 }
 
+<<<<<<< Updated upstream
 .perro  div:hover{
     /* width: 35rem; */
     background-color: red;
     border-radius: 10%;
 }
+=======
+.perro  div:first-child:hover{
+    /* width: 35rem; */
+    background-color: #e664654f;
+    border-radius: 33px;
+}
+
+/* #principal div:first-child:hover {
+    background-color: #e664654f;
+    border-radius: 10%;
+} */
+>>>>>>> Stashed changes

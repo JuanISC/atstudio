@@ -1,6 +1,10 @@
 {
   "name": "atstudio",
+<<<<<<< Updated upstream
   "version": "0.0.0",
+=======
+  "version": "0.0.1",
+>>>>>>> Stashed changes
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -23,7 +27,13 @@
     "@fortawesome/fontawesome-free": "^6.5.1",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^4.6.2",
+<<<<<<< Updated upstream
     "jquery": "^3.7.1",
+=======
+    "firebase": "^10.7.2",
+    "jquery": "^3.7.1",
+    "punycode": "^2.3.1",
+>>>>>>> Stashed changes
     "rxjs": "^6.6.3",
     "rxjs-compat": "^6.0.0",
     "tslib": "^2.3.0",

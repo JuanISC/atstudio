@@ -1,0 +1,52 @@
+PLATAFORMA DE CURSOS: 
+http://cursos.atstudio.com.mx
+
+Puedes acceder a tu cuenta de administrador con la siguiente información:
+
+Nombre de usuario: atstudiouserwp20
+Contraseña: La contraseña que has elegido durante la instalación.
+Accede desde aquí:  http://cursos.atstudio.com.mx/wp-login.php 
+
+Plataforma de Cursos:
+https://cursos.atstudio.com.mx/ep-admin 
+Contraseña: =1m5q@5r64h= 
+Usuario: @soporte_admin
+
+
+ATSTUDIO
+atstudio.2023
+
+
+Scorpion22.
+
+https://youtu.be/TlnoVwkgYgU
+
+
+------------------------------------------------
+#######################################################################################
+
+nvm use 20.10.0
+
+ng add @angular/fire
+
+
+ng deploy --project=[atsudio]
+
+
+npm install firebase
+
+firebase login:ci
+firebase init hosting 
+firebase projects:list
+
+/Users/jglez/Downloads/wetransfer_formacion-pilates-matwork_2024-01-11_2053/3.1.mp4
+
+
+1//0fj4WiOr4kS8pCgYIARAAGA8SNwF-L9IrzkOqpHNBYMWZ2ih9IWsMEITMYpoMeCqf7cD4eI6-L3HvuN7WnVHwYRU0VC9POg6aJIU
+
+Example: firebase deploy --token "$FIREBASE_TOKEN"
+
+
+firebase deploy --token "1//0fj4WiOr4kS8pCgYIARAAGA8SNwF-L9IrzkOqpHNBYMWZ2ih9IWsMEITMYpoMeCqf7cD4eI6-L3HvuN7WnVHwYRU0VC9POg6aJIU"
+
+

@@ -1,7 +1,11 @@
 .cardComponent {
     /* width: 33rem; */
     background-color: beige;
+<<<<<<< Updated upstream
     border-radius: 2%;
+=======
+    border-radius: 30px;
+>>>>>>> Stashed changes
     /* height: 400px; */
     /* height: 20%; */
 
@@ -9,8 +13,13 @@
 
 
 .cardComponent img{
+<<<<<<< Updated upstream
     border-top-left-radius: 2%;
     border-top-right-radius: 2%;
+=======
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+>>>>>>> Stashed changes
     height: 20%;
     max-height: 450px;
 }
@@ -31,3 +40,15 @@
     font-size: medium;
 }
 
+<<<<<<< Updated upstream
+=======
+.imgCircle{
+    width: 20vw; /* note i used vw not px for better responsive */
+    height: 20vw;
+}
+
+.imgCircle img{
+    object-fit: cover;
+}
+
+>>>>>>> Stashed changes

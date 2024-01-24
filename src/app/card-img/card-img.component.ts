@@ -10,6 +10,11 @@ export class CardImgComponent implements OnInit {
   @Input() title = ''; 
   @Input() text = ''; 
   @Input() srcImg = ''; 
+<<<<<<< Updated upstream
+=======
+  @Input() urlRedirect='';
+
+>>>>>>> Stashed changes
   constructor() { }
 
   ngOnInit(): void {
