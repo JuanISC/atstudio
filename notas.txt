@@ -50,3 +50,8 @@ Example: firebase deploy --token "$FIREBASE_TOKEN"
 firebase deploy --token "1//0fj4WiOr4kS8pCgYIARAAGA8SNwF-L9IrzkOqpHNBYMWZ2ih9IWsMEITMYpoMeCqf7cD4eI6-L3HvuN7WnVHwYRU0VC9POg6aJIU"
 
 
+
+#########################
+
+hls
+npm install aws-sdk

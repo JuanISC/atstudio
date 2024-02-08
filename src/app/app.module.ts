@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-
+import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header/header.component';
@@ -26,6 +26,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { CardImgCircleComponent } from './card-img-circle/card-img-circle.component';
 import { FooterComponent } from './footer/footer.component';
 import { CourseComponent } from './course/course.component';
+import { CourseDetailComponent } from './course-detail/course-detail.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { Interceptor } from './modules/services/interceptor';
+
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import {MatTabsModule} from '@angular/material/tabs';
 
 
 
@@ -45,7 +51,8 @@ import { CourseComponent } from './course/course.component';
     AboutUsComponent,
     CardImgCircleComponent,
     FooterComponent,
-    CourseComponent
+    CourseComponent,
+    CourseDetailComponent,
     
   ],
   imports: [
@@ -53,9 +60,18 @@ import { CourseComponent } from './course/course.component';
     FormsModule,
      // AngularFireModule.initializeApp(environment.firebase),
      AngularFireAuthModule,
-     AppRoutingModule
+     AppRoutingModule,
+     BrowserAnimationsModule,
+     MatSlideToggleModule,
+     MatTabsModule,
+     HttpClientModule
+
   ],
-  providers: [],
+  providers: [{
+    provide: HTTP_INTERCEPTORS,
+    useClass: Interceptor,
+    multi: true
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

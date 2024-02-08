@@ -5,11 +5,23 @@
             <!-- <h1>hola</h1>
                     <span class="subheading">subhoola</span> -->
             <!-- <video autoplay loop muted playsinline>
-                <source src="/assets/video/introduce.mp4" type="video/mp4">
+                <source src="/assets/video/3.2.mp4" type="video/mp4">
             </video> -->
 
+            <!-- <video autoplay loop muted playsinline>
+                <source src="https://drive.google.com/file/d/1kJOt4h0SnlU3C2LzwEz2385pqPDravI4/view?usp=drive_link" type="video/mp4">
+            </video> -->
 
-            <iframe src="https://drive.google.com/file/d/1kJOt4h0SnlU3C2LzwEz2385pqPDravI4/preview" width="640" height="480" allow="autoplay loop"></iframe>
+            <video autoplay loop muted playsinline controls preload="none" onmouseover="this.play()" onmouseout="this.pause()">
+                <source src=" http://localhost:8080/stream/introduce" type="video/mp4">
+            </video>
+
+
+
+            <!-- videojs_video url="https://example.com/wp-content/uploads/videos/myvid.mp4" -->
+
+            <!-- https://drive.google.com/file/d/1kJOt4h0SnlU3C2LzwEz2385pqPDravI4/view?usp=drive_link -->
+            <!-- <iframe src="https://drive.google.com/file/d/1kJOt4h0SnlU3C2LzwEz2385pqPDravI4/preview" width="640" height="480" allow="autoplay loopgit"></iframe> -->
         </div>
 
     </div>
@@ -112,10 +124,10 @@
     <section class="training">
         <div class="container">
             <div class="row">
-         
-          <h3 style="text-align: center;"> 
-            Elige tu programa de entrenamiento
-          </h3>
+
+                <h3 style="text-align: center;">
+                    Elige tu programa de entrenamiento
+                </h3>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-4">
@@ -124,8 +136,7 @@
                     </app-card>
                 </div>
                 <div class="col-lg-4 col-md-4">
-                    <app-card icon="fa-solid fa-circle-xmark" title="Certificaciones online"
-                        text=" Ofrecemos certificaciones online de Pilates, Barre y Coaching integral que al finalizar te otorgarán un reconocimiento que avala tus competencias como instructor en la materia.
+                    <app-card icon="fa-solid fa-circle-xmark" title="Certificaciones online" text=" Ofrecemos certificaciones online de Pilates, Barre y Coaching integral que al finalizar te otorgarán un reconocimiento que avala tus competencias como instructor en la materia.
                         ">
                     </app-card>
                 </div>
@@ -145,7 +156,28 @@
 
     <section class="course">
         <div class="container">
-            <h2>Testimonios</h2>
+            <h2 class="text-center">Testimonios</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-4">
+                    <video autoplay loop muted playsinline preload="none" onmouseover="this.play()" onmouseout="this.pause()">
+                        <source src=" http://localhost:8080/stream/modulo3_6" type="video/mp4">
+                    </video>
+
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <video autoplay loop muted playsinline>
+                        <source src="/assets/video/introduce.mp4" type="video/mp4">
+                    </video>
+
+                </div>
+                <div class="col-lg-4 col-md-4">
+
+                    <video autoplay loop muted playsinline>
+                        <source src="/assets/video/3.1.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <br>
             <div class="row">
                 <div class="col-lg-4 col-md-4">
                     <video autoplay loop muted playsinline>
@@ -166,44 +198,27 @@
                     </video>
                 </div>
             </div>
+            <br>
             <div class="row">
                 <div class="col-lg-4 col-md-4">
-                    <video autoplay loop muted playsinline>
-                        <source src="/assets/video/introduce.mp4" type="video/mp4">
+                    <video autoplay loop muted playsinline preload="none" controls onclick="this.playPause()" preload="metadata">
+                        <source src=" http://localhost:8080/stream/modulo3_6#t=0.01" type="video/mp4">
                     </video>
 
                 </div>
                 <div class="col-lg-4 col-md-4">
-                    <video autoplay loop muted playsinline>
-                        <source src="/assets/video/introduce.mp4" type="video/mp4">
-                    </video>
-
-                </div>
-                <div class="col-lg-4 col-md-4">
-
-                    <video autoplay loop muted playsinline>
-                        <source src="/assets/video/3.1.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4">
-                    <video autoplay loop muted playsinline>
-                        <source src="/assets/video/introduce.mp4" type="video/mp4">
-                    </video>
-
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <video autoplay loop muted playsinline>
-                        <source src="/assets/video/introduce.mp4" type="video/mp4">
+                    <video autoplay loop muted playsinline preload="none" controls onmouseover="this.play()" onmouseout="this.pause()" poster="/assets/img/video-thumbnail.webp">
+                        <source src=" http://localhost:8080/stream/modulo3_6" type="video/mp4">
                     </video>
 
                 </div>
                 <div class="col-lg-4 col-md-4">
 
-                    <video autoplay loop muted playsinline>
-                        <source src="/assets/video/3.1.mp4" type="video/mp4">
+                    <video autoplay loop muted playsinline preload="none" controls onmouseover="this.play()" onmouseout="this.pause()" poster="/assets/img/playVideo.jpeg" >
+                        <source src=" http://localhost:8080/stream/modulo3_6" type="video/mp4">
                     </video>
+
+                   
                 </div>
             </div>
 
@@ -215,22 +230,24 @@
     <br>
     <section class="course">
         <div class="container">
-            
+
             <div class="row">
                 <div class="col-lg-4 col-md-4">
-                    <app-card-img srcImg="/assets/img/imgcard1.jpeg" title="¿Por qué la enseñanza online puede ser inspiradora?"
-                    text="En la Certificación de Pilates Matwork aprenderás sobre el desarrollo de las enseñanzas de Joseph H. Pilates, veremos todos los ejercicios del repertorio nivel esencial, intermedio, avanzado,, en esta formación te enseñaremos cómo aplicar los Fundamentos Biomecánicos de estabilidad central, respiración y alineación en cada uno de los ejercicios.">
-                </app-card-img>
+                    <app-card-img srcImg="/assets/img/imgcard1.jpeg"
+                        title="¿Por qué la enseñanza online puede ser inspiradora?"
+                        text="En la Certificación de Pilates Matwork aprenderás sobre el desarrollo de las enseñanzas de Joseph H. Pilates, veremos todos los ejercicios del repertorio nivel esencial, intermedio, avanzado,, en esta formación te enseñaremos cómo aplicar los Fundamentos Biomecánicos de estabilidad central, respiración y alineación en cada uno de los ejercicios.">
+                    </app-card-img>
                 </div>
                 <div class="col-lg-4 col-md-4">
-                    <app-card-img srcImg="/assets/img/imgcard2.jpeg" title="Educación online como una oportunidad para las personas e instituciones"
-                    text="En la Certificación de Pilates Matwork aprenderás sobre el desarrollo de las enseñanzas de Joseph H. Pilates, veremos todos los ejercicios del repertorio nivel esencial, intermedio, avanzado,, en esta formación te enseñaremos cómo aplicar los Fundamentos Biomecánicos de estabilidad central, respiración y alineación en cada uno de los ejercicios.">
-                </app-card-img>
+                    <app-card-img srcImg="/assets/img/imgcard2.jpeg"
+                        title="Educación online como una oportunidad para las personas e instituciones"
+                        text="En la Certificación de Pilates Matwork aprenderás sobre el desarrollo de las enseñanzas de Joseph H. Pilates, veremos todos los ejercicios del repertorio nivel esencial, intermedio, avanzado,, en esta formación te enseñaremos cómo aplicar los Fundamentos Biomecánicos de estabilidad central, respiración y alineación en cada uno de los ejercicios.">
+                    </app-card-img>
                 </div>
                 <div class="col-lg-4 col-md-4">
                     <app-card-img srcImg="/assets/img/imgcard3.jpeg" title="Razones de por qué Crear un Blog de Empresa"
-                    text="En la Certificación de Pilates Matwork aprenderás sobre el desarrollo de las enseñanzas de Joseph H. Pilates, veremos todos los ejercicios del repertorio nivel esencial, intermedio, avanzado,, en esta formación te enseñaremos cómo aplicar los Fundamentos Biomecánicos de estabilidad central, respiración y alineación en cada uno de los ejercicios.">
-                </app-card-img>
+                        text="En la Certificación de Pilates Matwork aprenderás sobre el desarrollo de las enseñanzas de Joseph H. Pilates, veremos todos los ejercicios del repertorio nivel esencial, intermedio, avanzado,, en esta formación te enseñaremos cómo aplicar los Fundamentos Biomecánicos de estabilidad central, respiración y alineación en cada uno de los ejercicios.">
+                    </app-card-img>
                 </div>
             </div>
         </div>
