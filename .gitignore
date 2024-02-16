@@ -44,3 +44,5 @@ Thumbs.db
 
 #videos
 *.mp4
+*.ts
+*.m3u8

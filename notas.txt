@@ -55,3 +55,11 @@ firebase deploy --token "1//0fj4WiOr4kS8pCgYIARAAGA8SNwF-L9IrzkOqpHNBYMWZ2ih9IWs
 
 hls
 npm install aws-sdk
+
+https://github.com/joejoe2/spring-video/blob/main/src/main/java/com/joejoe2/video/controller/video/VideoController.java
+
+https://plyr.io/
+
+npm install --save hls.js
+
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8

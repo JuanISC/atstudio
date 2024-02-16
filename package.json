@@ -27,6 +27,7 @@
     "@videojs/http-streaming": "^3.10.0",
     "bootstrap": "^4.6.2",
     "firebase": "^10.7.2",
+    "hls.js": "^1.5.4",
     "jquery": "^3.7.1",
     "punycode": "^2.3.1",
     "rxjs": "^6.6.3",
