@@ -63,3 +63,42 @@ https://plyr.io/
 npm install --save hls.js
 
 https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+
+https://dev.to/adamkatora/creating-an-hls-vod-video-on-demand-streaming-platform-with-typescript-adonisjs-and-aws-59gg
+
+###########################################################
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "Statement1",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::mypruebaatstudio/*"
+        }
+    ]
+}
+
+
+{
+	"Version": "2008-10-17",
+	"Id": "PolicyForCloudFrontPrivateContent",
+	"Statement": [
+		{
+			"Sid": "AllowCloudFrontServicePrincipal",
+			"Effect": "Allow",
+			"Principal": {
+				"Service": "cloudfront.amazonaws.com"
+			},
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::atstudiobucketstatic/*",
+			"Condition": {
+				"StringEquals": {
+					"AWS:SourceArn": "arn:aws:cloudfront::532496384585:distribution/E2JBONXBD4PJBL"
+				}
+			}
+		}
+	]
+}
